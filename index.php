@@ -1,8 +1,8 @@
-<?php
-
-session_start();
-if(!isset($_SESSION["logged"]) || $_SESSION["logged"] !== true){
-    header("location: login.php");
-    exit;
-}
+<?php   include('include/session.php');
+        include('include/head.php');
+        include('include/css.php');
 ?>
+
+    <body>
+    </body>
+</html>
