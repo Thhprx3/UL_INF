@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 
 .body-page{
     margin: 5.5% auto;
-    max-width: 400px;
+    max-width: 666px;
     position: relative;
 }
 
@@ -26,16 +26,27 @@ h1, h2, h3, h4 {
     position: relative;
     background: #2a3142;
     margin-bottom: 30px;
-    border: 0;
+    border: 1px solid black;
+    border-radius: .50rem .50rem .50rem .50rem;
 }
+img{
+    max-width: 100%;
+    height: auto;
 
+}
+img.login-logo{
+    border-radius: .50rem .50rem 0 0;
+}
 .img-logo{
     position: relative;
+    
+  
 }
 
 .card-body{
     flex: 1 1 auto;
     padding: 1.25rem;
+    
 }
 
 .text-center{
@@ -64,6 +75,9 @@ h1, h2, h3, h4 {
 }
 .mt-10{
     margin-top: 10px;
+}
+.mt-40{
+    margin-top: 40px;
 }
 .mb-20{
     margin-bottom: 20px;
@@ -126,6 +140,10 @@ form{
     font-size: 30px;
     font-weight: 200;
 }
+.font-15{
+    font-size: 15px;
+    font-weight: 200;
+}
 
 ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.664);
@@ -147,9 +165,30 @@ form{
     margin-right: -15px;
 }
 
-.n-dec{
+.text-primary{
     text-decoration: none;
 }
+
 .text-white{
     color: #fafafa;
+}
+.text-purple{
+    color: #7a6fbe
+}
+
+.text-right{
+    text-align: right;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+.has-error .form-control {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
 }
