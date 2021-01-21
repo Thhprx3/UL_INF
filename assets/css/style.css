@@ -16,6 +16,18 @@ h1, h2, h3, h4 {
 
 }
 
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+    background: #2a3142;
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
+    position: absolute;
+}
+
 .body-page{
     margin: 5.5% auto;
     max-width: 666px;
@@ -32,6 +44,7 @@ h1, h2, h3, h4 {
 img{
     max-width: 100%;
     height: auto;
+    vertical-align: middle;
 
 }
 img.login-logo{
@@ -191,4 +204,189 @@ form{
     border-color: #a94442;
     -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+
+
+.custom-control-input {
+    background: #323a4e;
+}
+
+
+
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/* NAVBAR */
+#topnav{
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#topnav .topbar-main{
+    background-color: #7a6fbe;
+}
+
+.container-fluid{
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topnav .topbar-main .logo{
+    line-height: 60px;
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+.menus-extras ul li {
+    float: left;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.topbar-custom .nav-link{
+    line-height: 60px;
+    color: #2a3142;
+    display: block;
+    max-height: 60px;
+}
+.notification-list .nav-link{
+    padding: 0 15px;
+    line-height: 70px;
+}
+
+.waves-effect{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+}
+
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.dropdown-toggle{
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.action{
+    float: right;
+    padding: 5px;
+}
+.action .profile{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.action .profile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu {
+    position: absolute;
+    top: 80px;
+    float: left;
+    padding: 10px 20px;
+    background-color: #7a6fbe;
+    min-width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: none;
+    transform: translate3d(-145px, 0px, 0px);
+}
+.action .menu::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #7a6fbe;
+    transform: rotate(45deg);
+}
+.action .menu h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: #fafafa;
+    line-height: 1em;
+
+}
+.action .menu ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+}
+
+/*
+.action .menu ul li img{
+    max-width: 20px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.action .menu ul li:hover img{
+    opacity: 1;
+}
+*/
+
+.action .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.action .menu ul li:hover a{
+    color: #ff5d94;
 }
